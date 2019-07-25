@@ -12,9 +12,29 @@
 BoundingBox.hpp
 /home/z/PSE/robo_tivseg_standalone_test/include/BoundingBox.hpp
 
-/home/z/PSE/robo_tivseg_standalone_test/test/SensorManager_Stub.cpp
-SensorManager_Stub.h
+/home/z/PSE/robo_tivseg_standalone_test/src/Enums.h
+
+/home/z/PSE/robo_tivseg_standalone_test/src/ObstacleModule.h
+../test/SensorManager_Stub.h
 /home/z/PSE/robo_tivseg_standalone_test/test/SensorManager_Stub.h
+ProtocolModule.h
+/home/z/PSE/robo_tivseg_standalone_test/src/ProtocolModule.h
+
+/home/z/PSE/robo_tivseg_standalone_test/src/ProtocolModule.h
+string
+-
+fstream
+-
+iostream
+-
+time.h
+-
+ctime
+-
+stdio.h
+-
+Enums.h
+/home/z/PSE/robo_tivseg_standalone_test/src/Enums.h
 
 /home/z/PSE/robo_tivseg_standalone_test/test/SensorManager_Stub.h
 ../include/MarkerInfo.hpp
@@ -23,4 +43,12 @@ SensorManager_Stub.h
 /home/z/PSE/robo_tivseg_standalone_test/include/BoundingBox.hpp
 vector
 -
+
+/home/z/PSE/robo_tivseg_standalone_test/test/test.cpp
+gtest/gtest.h
+-
+../src/ObstacleModule.h
+/home/z/PSE/robo_tivseg_standalone_test/src/ObstacleModule.h
+SensorManager_Stub.h
+/home/z/PSE/robo_tivseg_standalone_test/test/SensorManager_Stub.h
 

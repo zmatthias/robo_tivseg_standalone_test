@@ -29,11 +29,10 @@ public:
 	*  @param -
 	*  @return boolean; declares if an obstacle is detected
 	*/
-	//template<typename T>
-	//bool checkObstacle(T m_sensorManager);
-    bool checkObstacle(SensorManager_Stub *myStub);
+	template<typename T>
+	bool checkObstacle(T SensorManager);
 
-	//DriveDecisionModule* m_DriveDecisionModule;
+    //DriveDecisionModule* m_DriveDecisionModule;
 	
 	/// Pointer to an instance of the ControllerModule class
 	//ControllerModule* m_ControllerModule;
@@ -58,9 +57,8 @@ private:
 	*  @param -
 	*  @return Depth information of a randomly selected pixel
 	*/
-	//template<typename T>
-	//double checkPixelDepth(int x, int y,T m_sensorManager);
-    double checkPixelDepth(int x, int y,SensorManager_Stub *myStub);
+	template<typename T>
+    double checkPixelDepth(int x, int y,T SensorManager);
 
 	/**@brief creates a random value
 	*	Creates a random value for the x-coordinate of the pixel. Since the sensor height is 480 pixels, boundaries are 0 and 480
@@ -80,4 +78,30 @@ private:
 
 
 };
+
+template<typename T>
+bool ObstacleModule::checkObstacle(T SensorManager){
+
+    for (auto i = 0; i < m_pixelsToCheckCount; i++){
+        auto currentX = createRandomXValue();
+        auto currentY = createRandomYValue();
+        auto currentPixelDepth = checkPixelDepth(currentX, currentY, SensorManager);
+
+        if (currentPixelDepth < m_minDistance){
+            DIAG_WARNING("OM: Obstacle ahead at distance " + std::to_string(currentPixelDepth)+"m "+"at coordinates"+" x: " +std::to_string(currentX)+" y: "+std::to_string(currentY));
+            return true;
+        }
+    }
+    return false; //if no pixel closer than the minimum distance was found
+}
+
+template<typename T>
+double ObstacleModule::checkPixelDepth(int x, int y, T SensorManager){
+    auto distance = SensorManager->getDepth(createRandomXValue(), createRandomYValue());
+    //the sensor sometimes reports 0.00m distance for some pixels as a bug, so we set the value to 99.9m to not mess up the obstacle detection
+    if (distance < 0.001) {
+        distance = 99.99;
+    }
+    return distance;
+}
 #endif // !defined(EA_72EC47CD_8EF0_4332_B1F6_C2CDEE9F1D68__INCLUDED_)

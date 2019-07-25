@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
 #include "../src/ObstacleModule.h"
+
 #include "SensorManager_Stub.h"
 
 TEST(EmptyTest, TrueAndFalse)
@@ -9,12 +10,17 @@ TEST(EmptyTest, TrueAndFalse)
     EXPECT_NE(b, false);
 }
 
-TEST(ObstacleTest, checkObstacle)
+
+
+
+TEST(ObstacleTest, checkIfNoObstacle)
 {
     SensorManager_Stub *myStubManager = new SensorManager_Stub();
-    ObstacleModule testObstModule;
-    auto obstaclePresence = testObstModule.checkObstacle(myStubManager);
-    EXPECT_EQ(obstaclePresence, true);
+    ObstacleModule *myObstModule = new ObstacleModule();
+
+    auto obstaclePresence = myObstModule->checkObstacle(myStubManager);
+    //myObstModule->printShit<int>(5);
+    EXPECT_EQ(obstaclePresence, false);
 
 }
 

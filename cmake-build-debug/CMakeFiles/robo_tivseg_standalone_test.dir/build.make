@@ -43,10 +43,10 @@ RM = /home/z/Downloads/clion-2019.1.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/z/CLionProjects/robo_tivseg_standalone_test
+CMAKE_SOURCE_DIR = /home/z/PSE/robo_tivseg_standalone_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/z/CLionProjects/robo_tivseg_standalone_test/cmake-build-debug
+CMAKE_BINARY_DIR = /home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/robo_tivseg_standalone_test.dir/depend.make
@@ -59,43 +59,31 @@ include CMakeFiles/robo_tivseg_standalone_test.dir/flags.make
 
 CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: CMakeFiles/robo_tivseg_standalone_test.dir/flags.make
 CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../test/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/z/CLionProjects/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o -c /home/z/CLionProjects/robo_tivseg_standalone_test/test/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o -c /home/z/PSE/robo_tivseg_standalone_test/test/test.cpp
 
 CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/z/CLionProjects/robo_tivseg_standalone_test/test/test.cpp > CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/z/PSE/robo_tivseg_standalone_test/test/test.cpp > CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.i
 
 CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/z/CLionProjects/robo_tivseg_standalone_test/test/test.cpp -o CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.s
-
-CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.o: CMakeFiles/robo_tivseg_standalone_test.dir/flags.make
-CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.o: ../src/trythis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/z/CLionProjects/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.o -c /home/z/CLionProjects/robo_tivseg_standalone_test/src/trythis.cpp
-
-CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/z/CLionProjects/robo_tivseg_standalone_test/src/trythis.cpp > CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.i
-
-CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/z/CLionProjects/robo_tivseg_standalone_test/src/trythis.cpp -o CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/z/PSE/robo_tivseg_standalone_test/test/test.cpp -o CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.s
 
 # Object files for target robo_tivseg_standalone_test
 robo_tivseg_standalone_test_OBJECTS = \
-"CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o" \
-"CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.o"
+"CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o"
 
 # External object files for target robo_tivseg_standalone_test
 robo_tivseg_standalone_test_EXTERNAL_OBJECTS =
 
 robo_tivseg_standalone_test: CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o
-robo_tivseg_standalone_test: CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.o
 robo_tivseg_standalone_test: CMakeFiles/robo_tivseg_standalone_test.dir/build.make
+robo_tivseg_standalone_test: /usr/lib/libgtest.a
+robo_tivseg_standalone_test: /usr/lib/libgtest_main.a
+robo_tivseg_standalone_test: /usr/lib/libgtest.a
 robo_tivseg_standalone_test: CMakeFiles/robo_tivseg_standalone_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/z/CLionProjects/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable robo_tivseg_standalone_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable robo_tivseg_standalone_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/robo_tivseg_standalone_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +96,6 @@ CMakeFiles/robo_tivseg_standalone_test.dir/clean:
 .PHONY : CMakeFiles/robo_tivseg_standalone_test.dir/clean
 
 CMakeFiles/robo_tivseg_standalone_test.dir/depend:
-	cd /home/z/CLionProjects/robo_tivseg_standalone_test/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/z/CLionProjects/robo_tivseg_standalone_test /home/z/CLionProjects/robo_tivseg_standalone_test /home/z/CLionProjects/robo_tivseg_standalone_test/cmake-build-debug /home/z/CLionProjects/robo_tivseg_standalone_test/cmake-build-debug /home/z/CLionProjects/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles/robo_tivseg_standalone_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/z/PSE/robo_tivseg_standalone_test /home/z/PSE/robo_tivseg_standalone_test /home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug /home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug /home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles/robo_tivseg_standalone_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robo_tivseg_standalone_test.dir/depend
 

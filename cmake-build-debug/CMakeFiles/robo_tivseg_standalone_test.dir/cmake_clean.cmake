@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o"
-  "CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.o"
   "robo_tivseg_standalone_test.pdb"
   "robo_tivseg_standalone_test"
 )

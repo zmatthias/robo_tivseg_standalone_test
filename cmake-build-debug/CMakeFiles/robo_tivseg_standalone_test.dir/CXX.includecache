@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/z/CLionProjects/robo_tivseg_standalone_test/test/test.cpp
-iostream
+/home/z/PSE/robo_tivseg_standalone_test/test/test.cpp
+gtest/gtest.h
 -
 

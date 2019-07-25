@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.o  -o robo_tivseg_standalone_test 
+/usr/bin/c++  -g   CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o  -o robo_tivseg_standalone_test /usr/lib/libgtest.a /usr/lib/libgtest_main.a /usr/lib/libgtest.a -lpthread 

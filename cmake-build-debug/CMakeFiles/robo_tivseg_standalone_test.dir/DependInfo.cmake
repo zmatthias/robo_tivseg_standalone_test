@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/z/CLionProjects/robo_tivseg_standalone_test/src/trythis.cpp" "/home/z/CLionProjects/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.o"
-  "/home/z/CLionProjects/robo_tivseg_standalone_test/test/test.cpp" "/home/z/CLionProjects/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o"
+  "/home/z/PSE/robo_tivseg_standalone_test/test/test.cpp" "/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -48,10 +48,10 @@ RM = /home/z/Downloads/clion-2019.1.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/z/CLionProjects/robo_tivseg_standalone_test
+CMAKE_SOURCE_DIR = /home/z/PSE/robo_tivseg_standalone_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/z/CLionProjects/robo_tivseg_standalone_test/cmake-build-debug
+CMAKE_BINARY_DIR = /home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/z/CLionProjects/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles /home/z/CLionProjects/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles /home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/z/CLionProjects/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,33 +123,6 @@ robo_tivseg_standalone_test/fast:
 	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/build
 .PHONY : robo_tivseg_standalone_test/fast
 
-src/trythis.o: src/trythis.cpp.o
-
-.PHONY : src/trythis.o
-
-# target to build an object file
-src/trythis.cpp.o:
-	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.o
-.PHONY : src/trythis.cpp.o
-
-src/trythis.i: src/trythis.cpp.i
-
-.PHONY : src/trythis.i
-
-# target to preprocess a source file
-src/trythis.cpp.i:
-	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.i
-.PHONY : src/trythis.cpp.i
-
-src/trythis.s: src/trythis.cpp.s
-
-.PHONY : src/trythis.s
-
-# target to generate assembly for a file
-src/trythis.cpp.s:
-	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/trythis.cpp.s
-.PHONY : src/trythis.cpp.s
-
 test/test.o: test/test.cpp.o
 
 .PHONY : test/test.o
@@ -186,9 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... robo_tivseg_standalone_test"
 	@echo "... edit_cache"
-	@echo "... src/trythis.o"
-	@echo "... src/trythis.i"
-	@echo "... src/trythis.s"
 	@echo "... test/test.o"
 	@echo "... test/test.i"
 	@echo "... test/test.s"

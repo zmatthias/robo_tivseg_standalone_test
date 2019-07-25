@@ -6,7 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/z/PSE/robo_tivseg_standalone_test/test/test.cpp
-gtest/gtest.h
+/home/z/PSE/robo_tivseg_standalone_test/include/BoundingBox.hpp
+
+/home/z/PSE/robo_tivseg_standalone_test/include/MarkerInfo.hpp
+BoundingBox.hpp
+/home/z/PSE/robo_tivseg_standalone_test/include/BoundingBox.hpp
+
+/home/z/PSE/robo_tivseg_standalone_test/test/SensorManager_Stub.cpp
+SensorManager_Stub.h
+/home/z/PSE/robo_tivseg_standalone_test/test/SensorManager_Stub.h
+
+/home/z/PSE/robo_tivseg_standalone_test/test/SensorManager_Stub.h
+../include/MarkerInfo.hpp
+/home/z/PSE/robo_tivseg_standalone_test/include/MarkerInfo.hpp
+../include/BoundingBox.hpp
+/home/z/PSE/robo_tivseg_standalone_test/include/BoundingBox.hpp
+vector
 -
 

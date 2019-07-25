@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o"
+  "CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o"
+  "CMakeFiles/robo_tivseg_standalone_test.dir/src/ProtocolModule.cpp.o"
+  "CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager_Stub.cpp.o"
   "robo_tivseg_standalone_test.pdb"
   "robo_tivseg_standalone_test"
 )

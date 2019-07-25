@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/z/PSE/robo_tivseg_standalone_test/src/ObstacleModule.cpp" "/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o"
+  "/home/z/PSE/robo_tivseg_standalone_test/src/ProtocolModule.cpp" "/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles/robo_tivseg_standalone_test.dir/src/ProtocolModule.cpp.o"
+  "/home/z/PSE/robo_tivseg_standalone_test/test/SensorManager_Stub.cpp" "/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager_Stub.cpp.o"
   "/home/z/PSE/robo_tivseg_standalone_test/test/test.cpp" "/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

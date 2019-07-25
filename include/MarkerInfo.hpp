@@ -1,6 +1,6 @@
 #pragma once
 
-#include <BoundingBox.hpp>
+#include "BoundingBox.hpp"
 
 /// Information about detected marker
 struct MarkerInfo

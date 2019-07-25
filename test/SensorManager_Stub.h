@@ -1,6 +1,8 @@
 #pragma once
 
-#include <MarkerInfo.hpp>
+#include "../include/MarkerInfo.hpp"
+#include "../include/BoundingBox.hpp"
+
 #include <vector>
 
 /// Sensor and image processing manager.

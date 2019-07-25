@@ -123,6 +123,87 @@ robo_tivseg_standalone_test/fast:
 	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/build
 .PHONY : robo_tivseg_standalone_test/fast
 
+src/ObstacleModule.o: src/ObstacleModule.cpp.o
+
+.PHONY : src/ObstacleModule.o
+
+# target to build an object file
+src/ObstacleModule.cpp.o:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o
+.PHONY : src/ObstacleModule.cpp.o
+
+src/ObstacleModule.i: src/ObstacleModule.cpp.i
+
+.PHONY : src/ObstacleModule.i
+
+# target to preprocess a source file
+src/ObstacleModule.cpp.i:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.i
+.PHONY : src/ObstacleModule.cpp.i
+
+src/ObstacleModule.s: src/ObstacleModule.cpp.s
+
+.PHONY : src/ObstacleModule.s
+
+# target to generate assembly for a file
+src/ObstacleModule.cpp.s:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.s
+.PHONY : src/ObstacleModule.cpp.s
+
+src/ProtocolModule.o: src/ProtocolModule.cpp.o
+
+.PHONY : src/ProtocolModule.o
+
+# target to build an object file
+src/ProtocolModule.cpp.o:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/ProtocolModule.cpp.o
+.PHONY : src/ProtocolModule.cpp.o
+
+src/ProtocolModule.i: src/ProtocolModule.cpp.i
+
+.PHONY : src/ProtocolModule.i
+
+# target to preprocess a source file
+src/ProtocolModule.cpp.i:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/ProtocolModule.cpp.i
+.PHONY : src/ProtocolModule.cpp.i
+
+src/ProtocolModule.s: src/ProtocolModule.cpp.s
+
+.PHONY : src/ProtocolModule.s
+
+# target to generate assembly for a file
+src/ProtocolModule.cpp.s:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/ProtocolModule.cpp.s
+.PHONY : src/ProtocolModule.cpp.s
+
+test/SensorManager_Stub.o: test/SensorManager_Stub.cpp.o
+
+.PHONY : test/SensorManager_Stub.o
+
+# target to build an object file
+test/SensorManager_Stub.cpp.o:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager_Stub.cpp.o
+.PHONY : test/SensorManager_Stub.cpp.o
+
+test/SensorManager_Stub.i: test/SensorManager_Stub.cpp.i
+
+.PHONY : test/SensorManager_Stub.i
+
+# target to preprocess a source file
+test/SensorManager_Stub.cpp.i:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager_Stub.cpp.i
+.PHONY : test/SensorManager_Stub.cpp.i
+
+test/SensorManager_Stub.s: test/SensorManager_Stub.cpp.s
+
+.PHONY : test/SensorManager_Stub.s
+
+# target to generate assembly for a file
+test/SensorManager_Stub.cpp.s:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager_Stub.cpp.s
+.PHONY : test/SensorManager_Stub.cpp.s
+
 test/test.o: test/test.cpp.o
 
 .PHONY : test/test.o
@@ -159,6 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... robo_tivseg_standalone_test"
 	@echo "... edit_cache"
+	@echo "... src/ObstacleModule.o"
+	@echo "... src/ObstacleModule.i"
+	@echo "... src/ObstacleModule.s"
+	@echo "... src/ProtocolModule.o"
+	@echo "... src/ProtocolModule.i"
+	@echo "... src/ProtocolModule.s"
+	@echo "... test/SensorManager_Stub.o"
+	@echo "... test/SensorManager_Stub.i"
+	@echo "... test/SensorManager_Stub.s"
 	@echo "... test/test.o"
 	@echo "... test/test.i"
 	@echo "... test/test.s"

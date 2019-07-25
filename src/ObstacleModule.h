@@ -8,8 +8,11 @@
 #if !defined(EA_72EC47CD_8EF0_4332_B1F6_C2CDEE9F1D68__INCLUDED_)
 #define EA_72EC47CD_8EF0_4332_B1F6_C2CDEE9F1D68__INCLUDED_
 
-#include "DriveDecisionModule.h"
+//#include "DriveDecisionModule.h"
 //#include "SensorManager.hpp"
+
+#include "../test/SensorManager_Stub.h"
+#include "ProtocolModule.h"
 
 class ObstacleModule
 {
@@ -26,11 +29,11 @@ public:
 	*  @param -
 	*  @return boolean; declares if an obstacle is detected
 	*/
-	template<typename T>
-	bool checkObstacle(T* m_sensorManager);
+	//template<typename T>
+	//bool checkObstacle(T m_sensorManager);
+    bool checkObstacle(SensorManager_Stub *myStub);
 
-
-	DriveDecisionModule* m_DriveDecisionModule;
+	//DriveDecisionModule* m_DriveDecisionModule;
 	
 	/// Pointer to an instance of the ControllerModule class
 	//ControllerModule* m_ControllerModule;
@@ -55,9 +58,9 @@ private:
 	*  @param -
 	*  @return Depth information of a randomly selected pixel
 	*/
-	template<typename T>
-	double checkPixelDepth(int x, int y,T* m_sensorManager);
-
+	//template<typename T>
+	//double checkPixelDepth(int x, int y,T m_sensorManager);
+    double checkPixelDepth(int x, int y,SensorManager_Stub *myStub);
 
 	/**@brief creates a random value
 	*	Creates a random value for the x-coordinate of the pixel. Since the sensor height is 480 pixels, boundaries are 0 and 480

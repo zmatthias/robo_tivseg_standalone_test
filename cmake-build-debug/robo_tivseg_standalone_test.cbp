@@ -84,6 +84,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/ObstacleModule.cpp">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/ObstacleModule.h">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/ProtocolModule.cpp">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/ProtocolModule.h">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/SensorManager_Stub.cpp">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/SensorManager_Stub.h">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
 		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/test.cpp">
 			<Option target="robo_tivseg_standalone_test"/>
 		</Unit>

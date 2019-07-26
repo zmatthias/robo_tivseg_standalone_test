@@ -123,6 +123,33 @@ robo_tivseg_standalone_test/fast:
 	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/build
 .PHONY : robo_tivseg_standalone_test/fast
 
+src/AbstractModule.o: src/AbstractModule.cpp.o
+
+.PHONY : src/AbstractModule.o
+
+# target to build an object file
+src/AbstractModule.cpp.o:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/AbstractModule.cpp.o
+.PHONY : src/AbstractModule.cpp.o
+
+src/AbstractModule.i: src/AbstractModule.cpp.i
+
+.PHONY : src/AbstractModule.i
+
+# target to preprocess a source file
+src/AbstractModule.cpp.i:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/AbstractModule.cpp.i
+.PHONY : src/AbstractModule.cpp.i
+
+src/AbstractModule.s: src/AbstractModule.cpp.s
+
+.PHONY : src/AbstractModule.s
+
+# target to generate assembly for a file
+src/AbstractModule.cpp.s:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/AbstractModule.cpp.s
+.PHONY : src/AbstractModule.cpp.s
+
 src/ObstacleModule.o: src/ObstacleModule.cpp.o
 
 .PHONY : src/ObstacleModule.o
@@ -294,6 +321,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... robo_tivseg_standalone_test"
 	@echo "... edit_cache"
+	@echo "... src/AbstractModule.o"
+	@echo "... src/AbstractModule.i"
+	@echo "... src/AbstractModule.s"
 	@echo "... src/ObstacleModule.o"
 	@echo "... src/ObstacleModule.i"
 	@echo "... src/ObstacleModule.s"

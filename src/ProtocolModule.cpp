@@ -12,7 +12,6 @@
 
 #include "ProtocolModule.h"
 
-using namespace std;
 string ProtocolModule::filePath;
 DiagnosticLevel ProtocolModule::maxLevel;
 

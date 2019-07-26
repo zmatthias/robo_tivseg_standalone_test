@@ -7,8 +7,12 @@ find_package(GTest MODULE REQUIRED)
 
 
 set (TEST_INCLUDE_CPPS "")
-list (APPEND TEST_INCLUDE_CPPS src/ObstacleModule.cpp)
+list (APPEND TEST_INCLUDE_CPPS src/AbstractModule.cpp)
 list (APPEND TEST_INCLUDE_CPPS src/ProtocolModule.cpp)
+
+list (APPEND TEST_INCLUDE_CPPS src/ObstacleModule.cpp)
+
+#list (APPEND TEST_INCLUDE_CPPS src/ImageProcessingModule.cpp)
 
 list (APPEND TEST_INCLUDE_CPPS test/SensorManagerStub.cpp)
 list (APPEND TEST_INCLUDE_CPPS test/SensorManagerStubObstacleNever.cpp)

@@ -33,6 +33,17 @@ TEST(ObstacleTest, checkIfNoObstacle)
     EXPECT_EQ(obstaclePresence, false);
 }
 
+TEST(ImageProcessingTest, checkMarker)
+{
+    auto *myStubManager = new SensorManagerStubObstacleNever();
+    auto myObstacleModule = new ObstacleModule<SensorManagerStubObstacleNever*> (myStubManager);
+    myObstacleModule->action();
+    auto obstaclePresence = myObstacleModule->getObstacleStatus();
+    EXPECT_EQ(obstaclePresence, false);
+}
+
+
+
 
 int main(int argc, char** argv)
 {

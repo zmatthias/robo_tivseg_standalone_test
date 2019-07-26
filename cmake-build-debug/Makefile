@@ -150,6 +150,33 @@ src/AbstractModule.cpp.s:
 	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/AbstractModule.cpp.s
 .PHONY : src/AbstractModule.cpp.s
 
+src/ImageProcessingModule.o: src/ImageProcessingModule.cpp.o
+
+.PHONY : src/ImageProcessingModule.o
+
+# target to build an object file
+src/ImageProcessingModule.cpp.o:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.o
+.PHONY : src/ImageProcessingModule.cpp.o
+
+src/ImageProcessingModule.i: src/ImageProcessingModule.cpp.i
+
+.PHONY : src/ImageProcessingModule.i
+
+# target to preprocess a source file
+src/ImageProcessingModule.cpp.i:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.i
+.PHONY : src/ImageProcessingModule.cpp.i
+
+src/ImageProcessingModule.s: src/ImageProcessingModule.cpp.s
+
+.PHONY : src/ImageProcessingModule.s
+
+# target to generate assembly for a file
+src/ImageProcessingModule.cpp.s:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.s
+.PHONY : src/ImageProcessingModule.cpp.s
+
 src/ObstacleModule.o: src/ObstacleModule.cpp.o
 
 .PHONY : src/ObstacleModule.o
@@ -324,6 +351,9 @@ help:
 	@echo "... src/AbstractModule.o"
 	@echo "... src/AbstractModule.i"
 	@echo "... src/AbstractModule.s"
+	@echo "... src/ImageProcessingModule.o"
+	@echo "... src/ImageProcessingModule.i"
+	@echo "... src/ImageProcessingModule.s"
 	@echo "... src/ObstacleModule.o"
 	@echo "... src/ObstacleModule.i"
 	@echo "... src/ObstacleModule.s"

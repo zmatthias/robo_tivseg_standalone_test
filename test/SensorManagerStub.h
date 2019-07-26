@@ -39,8 +39,8 @@ public:
 protected:
     SensorManagerStub *myManager;
 
-    int m_sensorHeight = 480;
-    int m_sensorWidth = 640;
+    int m_imgHeight = 480;
+    int m_imgWidth = 640;
     double m_fps = 29.5;
 
 private:

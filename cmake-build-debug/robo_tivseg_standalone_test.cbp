@@ -90,6 +90,12 @@
 		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/AbstractModule.h">
 			<Option target="robo_tivseg_standalone_test"/>
 		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/ImageProcessingModule.cpp">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/ImageProcessingModule.h">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
 		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/ObstacleModule.cpp">
 			<Option target="robo_tivseg_standalone_test"/>
 		</Unit>

@@ -6,6 +6,15 @@ CMakeFiles/robo_tivseg_standalone_test.dir/src/AbstractModule.cpp.o: ../src/Abst
 CMakeFiles/robo_tivseg_standalone_test.dir/src/AbstractModule.cpp.o: ../src/Enums.h
 CMakeFiles/robo_tivseg_standalone_test.dir/src/AbstractModule.cpp.o: ../src/ProtocolModule.h
 
+CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.o: ../include/BoundingBox.hpp
+CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.o: ../include/MarkerInfo.hpp
+CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.o: ../src/AbstractModule.h
+CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.o: ../src/Enums.h
+CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.o: ../src/ImageProcessingModule.cpp
+CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.o: ../src/ImageProcessingModule.h
+CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.o: ../src/Positions.h
+CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.o: ../src/ProtocolModule.h
+
 CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../include/BoundingBox.hpp
 CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../include/MarkerInfo.hpp
 CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../src/AbstractModule.h

@@ -12,7 +12,7 @@ list (APPEND TEST_INCLUDE_CPPS src/ProtocolModule.cpp)
 
 list (APPEND TEST_INCLUDE_CPPS src/ObstacleModule.cpp)
 
-#list (APPEND TEST_INCLUDE_CPPS src/ImageProcessingModule.cpp)
+list (APPEND TEST_INCLUDE_CPPS src/ImageProcessingModule.cpp)
 
 list (APPEND TEST_INCLUDE_CPPS test/SensorManagerStub.cpp)
 list (APPEND TEST_INCLUDE_CPPS test/SensorManagerStubObstacleNever.cpp)

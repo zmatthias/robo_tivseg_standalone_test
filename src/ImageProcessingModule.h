@@ -5,28 +5,27 @@
 //  Original author: student
 ///////////////////////////////////////////////////////////
 
-#if !defined(EA_D3FA2325_317B_4ac3_A094_29C10D9E228F__INCLUDED_)
-#define EA_D3FA2325_317B_4ac3_A094_29C10D9E228F__INCLUDED_
-
+#pragma once
 
 #include <list>
 #include <iterator>
 #include <math.h>
-#include "Positions.h"
-
-#include "Positions.h"
+#include <vector>
+#include "../include/MarkerInfo.hpp"
 #include "../include/BoundingBox.hpp"
+#include "Positions.h"
 #include "AbstractModule.h"
+#include "ProtocolModule.h"
 
 ///<summary>
 /// Gets the wanted marker and calculates its middlepoint in polar coodinates
 ///<summary>
-
+template <typename TSens>
 class ImageProcessingModule : public AbstractModule
 {
 
 public:
-	ImageProcessingModule(DriveDecisionModule* objDrivDecM);
+	ImageProcessingModule(TSens SensorManager);
 	void action() override;
 	/**@brief Chooses a BoudingBox and calculates it's position \n
 	*		Selects a BoudingBox, calculates the position of it's middlepoint in polar coodinates and sends the data to DriveDecisionModule.
@@ -37,10 +36,10 @@ public:
 
 private:
 
-	///Pointer to instance of DriveDecisionModule
-	DriveDecisionModule* m_DriveDecisionModule;
-	
-	/**@brief Gets a list of markes and returns the biggest one \n
+    TSens m_SensorManager;
+    PolarPosition m_target;
+
+    /**@brief Gets a list of markes and returns the biggest one \n
 	*		Gets a list of markers from the SensorManager and chooses the one that has the largest width.
 	*
 	*  @return the biggest BoudingBox as BoudingBox
@@ -63,11 +62,8 @@ private:
 	*/
 	PolarPosition calculatePolarPosition(ImagePosition3D imgPos);
 
-	void notifyDriveDecisionModule(PolarPosition targetMarkerMiddle);
 
 	std::string m_DiagName = "ImgP_M";
 
 
 };
-
-#endif // !defined(EA_D3FA2325_317B_4ac3_A094_29C10D9E228F__INCLUDED_)

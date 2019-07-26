@@ -6,6 +6,15 @@ CMakeFiles/robo_tivseg_standalone_test.dir/src/AbstractModule.cpp.o
  /home/z/PSE/robo_tivseg_standalone_test/src/AbstractModule.h
  /home/z/PSE/robo_tivseg_standalone_test/src/Enums.h
  /home/z/PSE/robo_tivseg_standalone_test/src/ProtocolModule.h
+CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.o
+ /home/z/PSE/robo_tivseg_standalone_test/include/BoundingBox.hpp
+ /home/z/PSE/robo_tivseg_standalone_test/include/MarkerInfo.hpp
+ /home/z/PSE/robo_tivseg_standalone_test/src/AbstractModule.h
+ /home/z/PSE/robo_tivseg_standalone_test/src/Enums.h
+ /home/z/PSE/robo_tivseg_standalone_test/src/ImageProcessingModule.cpp
+ /home/z/PSE/robo_tivseg_standalone_test/src/ImageProcessingModule.h
+ /home/z/PSE/robo_tivseg_standalone_test/src/Positions.h
+ /home/z/PSE/robo_tivseg_standalone_test/src/ProtocolModule.h
 CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o
  /home/z/PSE/robo_tivseg_standalone_test/include/BoundingBox.hpp
  /home/z/PSE/robo_tivseg_standalone_test/include/MarkerInfo.hpp

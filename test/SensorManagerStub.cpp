@@ -33,11 +33,11 @@ std::vector<MarkerInfo> SensorManagerStub::getMarkerList() {
 }
 
 int SensorManagerStub::getSensorWidth() {
-    return m_sensorWidth;
+    return m_imgWidth;
 }
 
 int SensorManagerStub::getSensorHeight() {
-    return m_sensorHeight;
+    return m_imgHeight;
 }
 
 Color SensorManagerStub::getRGBValue(int x, int y) {

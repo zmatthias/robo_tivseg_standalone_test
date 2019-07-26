@@ -177,32 +177,86 @@ src/ProtocolModule.cpp.s:
 	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/src/ProtocolModule.cpp.s
 .PHONY : src/ProtocolModule.cpp.s
 
-test/SensorManager_Stub.o: test/SensorManager_Stub.cpp.o
+test/SensorManagerStub.o: test/SensorManagerStub.cpp.o
 
-.PHONY : test/SensorManager_Stub.o
+.PHONY : test/SensorManagerStub.o
 
 # target to build an object file
-test/SensorManager_Stub.cpp.o:
-	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager_Stub.cpp.o
-.PHONY : test/SensorManager_Stub.cpp.o
+test/SensorManagerStub.cpp.o:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.o
+.PHONY : test/SensorManagerStub.cpp.o
 
-test/SensorManager_Stub.i: test/SensorManager_Stub.cpp.i
+test/SensorManagerStub.i: test/SensorManagerStub.cpp.i
 
-.PHONY : test/SensorManager_Stub.i
+.PHONY : test/SensorManagerStub.i
 
 # target to preprocess a source file
-test/SensorManager_Stub.cpp.i:
-	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager_Stub.cpp.i
-.PHONY : test/SensorManager_Stub.cpp.i
+test/SensorManagerStub.cpp.i:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.i
+.PHONY : test/SensorManagerStub.cpp.i
 
-test/SensorManager_Stub.s: test/SensorManager_Stub.cpp.s
+test/SensorManagerStub.s: test/SensorManagerStub.cpp.s
 
-.PHONY : test/SensorManager_Stub.s
+.PHONY : test/SensorManagerStub.s
 
 # target to generate assembly for a file
-test/SensorManager_Stub.cpp.s:
-	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager_Stub.cpp.s
-.PHONY : test/SensorManager_Stub.cpp.s
+test/SensorManagerStub.cpp.s:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.s
+.PHONY : test/SensorManagerStub.cpp.s
+
+test/SensorManagerStubObstacleAlways.o: test/SensorManagerStubObstacleAlways.cpp.o
+
+.PHONY : test/SensorManagerStubObstacleAlways.o
+
+# target to build an object file
+test/SensorManagerStubObstacleAlways.cpp.o:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.o
+.PHONY : test/SensorManagerStubObstacleAlways.cpp.o
+
+test/SensorManagerStubObstacleAlways.i: test/SensorManagerStubObstacleAlways.cpp.i
+
+.PHONY : test/SensorManagerStubObstacleAlways.i
+
+# target to preprocess a source file
+test/SensorManagerStubObstacleAlways.cpp.i:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.i
+.PHONY : test/SensorManagerStubObstacleAlways.cpp.i
+
+test/SensorManagerStubObstacleAlways.s: test/SensorManagerStubObstacleAlways.cpp.s
+
+.PHONY : test/SensorManagerStubObstacleAlways.s
+
+# target to generate assembly for a file
+test/SensorManagerStubObstacleAlways.cpp.s:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.s
+.PHONY : test/SensorManagerStubObstacleAlways.cpp.s
+
+test/SensorManagerStubObstacleNever.o: test/SensorManagerStubObstacleNever.cpp.o
+
+.PHONY : test/SensorManagerStubObstacleNever.o
+
+# target to build an object file
+test/SensorManagerStubObstacleNever.cpp.o:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.o
+.PHONY : test/SensorManagerStubObstacleNever.cpp.o
+
+test/SensorManagerStubObstacleNever.i: test/SensorManagerStubObstacleNever.cpp.i
+
+.PHONY : test/SensorManagerStubObstacleNever.i
+
+# target to preprocess a source file
+test/SensorManagerStubObstacleNever.cpp.i:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.i
+.PHONY : test/SensorManagerStubObstacleNever.cpp.i
+
+test/SensorManagerStubObstacleNever.s: test/SensorManagerStubObstacleNever.cpp.s
+
+.PHONY : test/SensorManagerStubObstacleNever.s
+
+# target to generate assembly for a file
+test/SensorManagerStubObstacleNever.cpp.s:
+	$(MAKE) -f CMakeFiles/robo_tivseg_standalone_test.dir/build.make CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.s
+.PHONY : test/SensorManagerStubObstacleNever.cpp.s
 
 test/test.o: test/test.cpp.o
 
@@ -246,9 +300,15 @@ help:
 	@echo "... src/ProtocolModule.o"
 	@echo "... src/ProtocolModule.i"
 	@echo "... src/ProtocolModule.s"
-	@echo "... test/SensorManager_Stub.o"
-	@echo "... test/SensorManager_Stub.i"
-	@echo "... test/SensorManager_Stub.s"
+	@echo "... test/SensorManagerStub.o"
+	@echo "... test/SensorManagerStub.i"
+	@echo "... test/SensorManagerStub.s"
+	@echo "... test/SensorManagerStubObstacleAlways.o"
+	@echo "... test/SensorManagerStubObstacleAlways.i"
+	@echo "... test/SensorManagerStubObstacleAlways.s"
+	@echo "... test/SensorManagerStubObstacleNever.o"
+	@echo "... test/SensorManagerStubObstacleNever.i"
+	@echo "... test/SensorManagerStubObstacleNever.s"
 	@echo "... test/test.o"
 	@echo "... test/test.i"
 	@echo "... test/test.s"

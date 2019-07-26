@@ -6,14 +6,15 @@
 #include <vector>
 
 /// Sensor and image processing manager.
-class SensorManager_Stub
+class SensorManagerStub
 {
 public:
-	SensorManager_Stub();
-	/// Get the singleton instance of the sensor manager.
-	SensorManager_Stub* getInstance();
+    SensorManagerStub();
 
-	/// Update color and depth data, and perform marker detection.
+    /// Get the instance of the sensor manager.
+    SensorManagerStub* getInstance();
+
+    /// Update color and depth data, and perform marker detection.
 	bool runOnce();
 
 	/// Get the list of currently detected markers.
@@ -26,7 +27,7 @@ public:
 	int getSensorHeight();
 	
 	/// Get the depth [m] at the given pixel in the sensor data.
-	double getDepth(int x, int y);
+	virtual double getDepth(int x, int y);
 
 	/// Get the RGB-Value at the given pixel in the sensor data.
 	Color getRGBValue(int x, int y);
@@ -34,10 +35,15 @@ public:
 	/// Get an average of the current processing FPS
 	float getFps();
 
-	/// Get the surface for drawing debug information. This will by default already show the camera image.
-	struct SDL_Surface* getDebugDisplaySurface();
 
 protected:
+    SensorManagerStub *myManager;
 
-	SensorManager_Stub *myManager;
+    int m_sensorHeight = 480;
+    int m_sensorWidth = 640;
+    double m_fps = 29.5;
+
+private:
+    double m_depth = 0;
+
 };

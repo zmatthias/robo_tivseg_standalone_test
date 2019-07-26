@@ -6,22 +6,40 @@ CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../include/
 CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../src/Enums.h
 CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../src/ObstacleModule.cpp
 CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../src/ObstacleModule.h
+CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../src/Positions.h
 CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../src/ProtocolModule.h
-CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../test/SensorManager_Stub.h
+CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../test/SensorManagerStub.h
+CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../test/SensorManagerStubObstacleNever.h
 
 CMakeFiles/robo_tivseg_standalone_test.dir/src/ProtocolModule.cpp.o: ../src/ProtocolModule.cpp
 CMakeFiles/robo_tivseg_standalone_test.dir/src/ProtocolModule.cpp.o: ../src/ProtocolModule.h
 
-CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager_Stub.cpp.o: ../include/BoundingBox.hpp
-CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager_Stub.cpp.o: ../include/MarkerInfo.hpp
-CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager_Stub.cpp.o: ../test/SensorManager_Stub.cpp
-CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager_Stub.cpp.o: ../test/SensorManager_Stub.h
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.o: ../include/BoundingBox.hpp
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.o: ../include/MarkerInfo.hpp
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.o: ../test/SensorManagerStub.cpp
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.o: ../test/SensorManagerStub.h
+
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.o: ../include/BoundingBox.hpp
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.o: ../include/MarkerInfo.hpp
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.o: ../test/SensorManagerStub.h
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.o: ../test/SensorManagerStubObstacleAlways.cpp
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.o: ../test/SensorManagerStubObstacleAlways.h
+
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.o: ../include/BoundingBox.hpp
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.o: ../include/MarkerInfo.hpp
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.o: ../test/SensorManagerStub.h
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.o: ../test/SensorManagerStubObstacleNever.cpp
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.o: ../test/SensorManagerStubObstacleNever.h
 
 CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../include/BoundingBox.hpp
 CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../include/MarkerInfo.hpp
 CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../src/Enums.h
+CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../src/ObstacleModule.cpp
 CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../src/ObstacleModule.h
+CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../src/Positions.h
 CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../src/ProtocolModule.h
-CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../test/SensorManager_Stub.h
+CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../test/SensorManagerStub.h
+CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../test/SensorManagerStubObstacleAlways.h
+CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../test/SensorManagerStubObstacleNever.h
 CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../test/test.cpp
 

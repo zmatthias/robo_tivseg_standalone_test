@@ -10,7 +10,9 @@ set (TEST_INCLUDE_CPPS "")
 list (APPEND TEST_INCLUDE_CPPS src/ObstacleModule.cpp)
 list (APPEND TEST_INCLUDE_CPPS src/ProtocolModule.cpp)
 
-list (APPEND TEST_INCLUDE_CPPS test/SensorManager_Stub.cpp)
+list (APPEND TEST_INCLUDE_CPPS test/SensorManagerStub.cpp)
+list (APPEND TEST_INCLUDE_CPPS test/SensorManagerStubObstacleNever.cpp)
+list (APPEND TEST_INCLUDE_CPPS test/SensorManagerStubObstacleAlways.cpp)
 
 
 add_executable(robo_tivseg_standalone_test test/test.cpp ${TEST_INCLUDE_CPPS})

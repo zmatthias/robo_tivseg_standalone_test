@@ -96,10 +96,22 @@
 		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/ProtocolModule.h">
 			<Option target="robo_tivseg_standalone_test"/>
 		</Unit>
-		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/SensorManager_Stub.cpp">
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStub.cpp">
 			<Option target="robo_tivseg_standalone_test"/>
 		</Unit>
-		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/SensorManager_Stub.h">
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStub.h">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStubObstacleAlways.cpp">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStubObstacleAlways.h">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStubObstacleNever.cpp">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStubObstacleNever.h">
 			<Option target="robo_tivseg_standalone_test"/>
 		</Unit>
 		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/test.cpp">

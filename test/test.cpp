@@ -18,7 +18,8 @@ TEST(ObstacleTest, checkIfObstacle)
 {
     auto *myStubManager = new SensorManagerStubObstacleAlways();
     auto myObstacleModule = new ObstacleModule<SensorManagerStubObstacleAlways*> (myStubManager);
-    auto obstaclePresence = myObstacleModule->checkObstacle();
+    myObstacleModule->action();
+    auto obstaclePresence = myObstacleModule->getObstacleStatus();
     EXPECT_EQ(obstaclePresence, true);
 }
 
@@ -27,7 +28,8 @@ TEST(ObstacleTest, checkIfNoObstacle)
 {
     auto *myStubManager = new SensorManagerStubObstacleNever();
     auto myObstacleModule = new ObstacleModule<SensorManagerStubObstacleNever*> (myStubManager);
-    auto obstaclePresence = myObstacleModule->checkObstacle();
+    myObstacleModule->action();
+    auto obstaclePresence = myObstacleModule->getObstacleStatus();
     EXPECT_EQ(obstaclePresence, false);
 }
 

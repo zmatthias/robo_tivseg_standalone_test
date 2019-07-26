@@ -8,7 +8,7 @@
 #include "ObstacleModule.h"
 #include <iostream>
 
-template < typename TSens>
+template <typename TSens>
 ObstacleModule<TSens>::ObstacleModule(TSens SensorManager){
     m_SensorManager = SensorManager;
     m_cameraImageHeight = SensorManager->getSensorHeight();
@@ -16,8 +16,21 @@ ObstacleModule<TSens>::ObstacleModule(TSens SensorManager){
 
 }
 
+template <typename TSens>
+void ObstacleModule<TSens>::action() {
+    DIAG_VERBOSE(m_DiagName + ": Action");
+    m_obstaclePresent = checkForObstacle();
+}
+
+
+template <typename TSens>
+bool ObstacleModule<TSens>::getObstacleStatus() {
+    return m_obstaclePresent;
+}
+
+
 template < typename TSens>
-bool ObstacleModule<TSens>::checkObstacle(){
+bool ObstacleModule<TSens>::checkForObstacle(){
 
     for (auto i = 0; i < m_pixelsToCheckCount; i++){
         auto currentImgPos = createRandomXY();

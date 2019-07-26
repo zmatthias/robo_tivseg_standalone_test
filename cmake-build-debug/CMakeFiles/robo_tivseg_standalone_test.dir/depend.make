@@ -8,6 +8,7 @@ CMakeFiles/robo_tivseg_standalone_test.dir/src/AbstractModule.cpp.o: ../src/Prot
 
 CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../include/BoundingBox.hpp
 CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../include/MarkerInfo.hpp
+CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../src/AbstractModule.h
 CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../src/Enums.h
 CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../src/ObstacleModule.cpp
 CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o: ../src/ObstacleModule.h
@@ -39,6 +40,7 @@ CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.c
 
 CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../include/BoundingBox.hpp
 CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../include/MarkerInfo.hpp
+CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../src/AbstractModule.h
 CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../src/Enums.h
 CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../src/ObstacleModule.cpp
 CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o: ../src/ObstacleModule.h

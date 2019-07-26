@@ -13,15 +13,18 @@
 #include "../test/SensorManagerStubObstacleNever.h"
 #include "ProtocolModule.h"
 #include "Positions.h"
+#include "AbstractModule.h"
 
 template < typename TSens>
-class ObstacleModule
+class ObstacleModule : public AbstractModule
 {
 
 public:
 	/// Constructor of the ObstacleModule class
 	ObstacleModule(TSens SensorManager);
-	
+	void action() override ;
+
+    bool getObstacleStatus();
 	/// Destructor of the ObstacleModule class
 
 	/**@brief checks if an obstacle is located in front of the camera
@@ -29,7 +32,7 @@ public:
 	*  @param -
 	*  @return boolean; declares if an obstacle is detected
 	*/
-	bool checkObstacle();
+	bool checkForObstacle();
 
     //DriveDecisionModule* m_DriveDecisionModule;
 	
@@ -54,7 +57,8 @@ private:
     /// If measurements are closer than this distance, it is considered invalid. The measurement is then set to m_distanceAfterInvalid
     double m_minDistanceInvalid = 0.001;
     double m_distanceAfterInvalid = 99;
-
+    bool m_obstaclePresent = true;
+    std::string m_DiagName = "Obst_M";
 
     /**@brief Checks the depth of single pixels
 	*	Calls the method "getDepth" of the "SensorManager" class, which returns the depth_information of the pixels. 

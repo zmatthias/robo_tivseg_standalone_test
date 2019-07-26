@@ -8,26 +8,3 @@
 #include "ObstacleModule.h"
 #include <iostream>
 
-// Constructor
-ObstacleModule::ObstacleModule(){
-	
-}
-
-// Destructor
-ObstacleModule::~ObstacleModule(){
-
-}
-
-
-
-
-
-int ObstacleModule::createRandomXValue(){
-	int value = rand() % m_maxWidth;
-	return value;
-}
-
-int ObstacleModule::createRandomYValue(){
-	int value = rand() % m_maxHeight;
-	return value;
-}

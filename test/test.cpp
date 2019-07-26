@@ -15,11 +15,11 @@ TEST(EmptyTest, TrueAndFalse)
 
 TEST(ObstacleTest, checkIfNoObstacle)
 {
-    SensorManager_Stub *myStubManager = new SensorManager_Stub();
-    ObstacleModule *myObstModule = new ObstacleModule();
+    auto *myStubManager = new SensorManager_Stub();
 
-    auto obstaclePresence = myObstModule->checkObstacle(myStubManager);
-    //myObstModule->printShit<int>(5);
+    auto myObstacleModule = new ObstacleModule<SensorManager_Stub*> (myStubManager);
+
+    auto obstaclePresence = myObstacleModule->checkObstacle();
     EXPECT_EQ(obstaclePresence, false);
 
 }

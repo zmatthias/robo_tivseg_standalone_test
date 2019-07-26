@@ -12,9 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="706cdd77-23a9-4b73-aca9-e36fbc2ae6b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/robo_tivseg_standalone_test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/robo_tivseg_standalone_test.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/robo_tivseg_standalone_test.dir/test/test.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/robo_tivseg_standalone_test" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ObstacleModule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObstacleModule.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ObstacleModule.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObstacleModule.h" afterDir="false" />
@@ -35,19 +36,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+            <state relative-caret-position="240">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -58,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/SensorManager_Stub.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="120">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="e#14#50#0" expanded="true" />
               </folding>
@@ -68,37 +60,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/MarkerInfo.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/BoundingBox.hpp">
+        <entry file="file://$PROJECT_DIR$/src/ObstacleModule.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#262#289#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProtocolModule.h">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ObstacleModule.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProtocolModule.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="-900">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#452#491#0" expanded="true" />
+                <element signature="e#530#547#0" expanded="true" />
+                <element signature="e#2463#2480#0" expanded="true" />
+                <element signature="e#3103#3120#0" expanded="true" />
+                <element signature="e#3511#3528#0" expanded="true" />
+                <element signature="e#3638#3655#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,34 +93,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ObstacleModule.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="84" column="39" lean-forward="true" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
-              <folding>
-                <element signature="e#452#491#0" expanded="true" />
-                <element signature="e#981#993#0" expanded="true" />
-                <element signature="e#1812#1824#0" expanded="true" />
-                <element signature="e#2448#2460#0" expanded="true" />
-                <element signature="e#3110#3122#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ObstacleModule.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#262#289#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -153,16 +110,17 @@
         <option value="$PROJECT_DIR$/include/MarkerInfo.hpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/test/SensorManager_Stub.cpp" />
+        <option value="$PROJECT_DIR$/test/test.cpp" />
         <option value="$PROJECT_DIR$/src/ObstacleModule.cpp" />
         <option value="$PROJECT_DIR$/src/ObstacleModule.h" />
-        <option value="$PROJECT_DIR$/test/test.cpp" />
       </list>
     </option>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="717" />
+    <option name="x" value="-1" />
     <option name="y" value="-17" />
-    <option name="width" value="1204" />
+    <option name="width" value="1922" />
     <option name="height" value="1199" />
   </component>
   <component name="ProjectView">
@@ -244,13 +202,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7941000" />
+    <option name="totallyTimeSpent" value="9317000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="717" y="-17" width="1204" height="1199" extended-state="0" />
+    <frame x="-1" y="-17" width="1922" height="1199" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.205" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15067779" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -276,27 +234,11 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/trythis.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trythis.cpp" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/SensorManager_Stub.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#14#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -314,13 +256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/SensorManager_Stub.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProtocolModule.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -335,36 +270,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/SensorManager_Stub.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ObstacleModule.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#262#289#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObstacleModule.h">
+    <entry file="file://$PROJECT_DIR$/test/test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="84" column="39" lean-forward="true" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <element signature="e#452#491#0" expanded="true" />
-            <element signature="e#981#993#0" expanded="true" />
-            <element signature="e#1812#1824#0" expanded="true" />
-            <element signature="e#2448#2460#0" expanded="true" />
-            <element signature="e#3110#3122#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.cpp">
+    <entry file="file://$PROJECT_DIR$/test/SensorManager_Stub.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+        <state relative-caret-position="120">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#14#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObstacleModule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#452#491#0" expanded="true" />
+            <element signature="e#530#547#0" expanded="true" />
+            <element signature="e#2463#2480#0" expanded="true" />
+            <element signature="e#3103#3120#0" expanded="true" />
+            <element signature="e#3511#3528#0" expanded="true" />
+            <element signature="e#3638#3655#0" expanded="true" />
           </folding>
         </state>
       </provider>

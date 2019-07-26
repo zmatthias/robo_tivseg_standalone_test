@@ -14,6 +14,12 @@ BoundingBox.hpp
 
 /home/z/PSE/robo_tivseg_standalone_test/src/Enums.h
 
+/home/z/PSE/robo_tivseg_standalone_test/src/ObstacleModule.cpp
+ObstacleModule.h
+/home/z/PSE/robo_tivseg_standalone_test/src/ObstacleModule.h
+iostream
+-
+
 /home/z/PSE/robo_tivseg_standalone_test/src/ObstacleModule.h
 ../test/SensorManager_Stub.h
 /home/z/PSE/robo_tivseg_standalone_test/test/SensorManager_Stub.h

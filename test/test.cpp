@@ -5,14 +5,6 @@
 #include "SensorManagerStubObstacleAlways.h"
 #include "SensorManagerStubObstacleNever.h"
 
-TEST(EmptyTest, TrueAndFalse)
-{
-    bool b = true;
-    EXPECT_EQ(b, true);
-    EXPECT_NE(b, false);
-}
-
-
 
 TEST(ObstacleTest, checkIfObstacle)
 {

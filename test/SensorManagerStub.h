@@ -39,11 +39,11 @@ public:
 protected:
     SensorManagerStub *myManager;
 
-    int m_imgHeight = 480;
-    int m_imgWidth = 640;
-    double m_fps = 29.5;
+   const int m_imgHeight = 480;
+   const int m_imgWidth = 640;
+   const double m_fps = 29.5;
 
 private:
-    double m_depth = 0;
+    const double m_depth = 0;
 
 };

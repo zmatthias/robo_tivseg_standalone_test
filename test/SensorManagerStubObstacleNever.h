@@ -13,6 +13,6 @@ public:
 
 protected:
 
-	double m_depth = 1;
+	const double m_depth = 1.0;
 
 };

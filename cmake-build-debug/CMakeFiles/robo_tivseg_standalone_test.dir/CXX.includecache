@@ -18,30 +18,6 @@ string
 
 /home/z/PSE/robo_tivseg_standalone_test/src/Enums.h
 
-/home/z/PSE/robo_tivseg_standalone_test/src/ImageProcessingModule.cpp
-ImageProcessingModule.h
-/home/z/PSE/robo_tivseg_standalone_test/src/ImageProcessingModule.h
-
-/home/z/PSE/robo_tivseg_standalone_test/src/ImageProcessingModule.h
-list
--
-iterator
--
-math.h
--
-vector
--
-../include/MarkerInfo.hpp
-/home/z/PSE/robo_tivseg_standalone_test/include/MarkerInfo.hpp
-../include/BoundingBox.hpp
-/home/z/PSE/robo_tivseg_standalone_test/include/BoundingBox.hpp
-Positions.h
-/home/z/PSE/robo_tivseg_standalone_test/src/Positions.h
-AbstractModule.h
-/home/z/PSE/robo_tivseg_standalone_test/src/AbstractModule.h
-ProtocolModule.h
-/home/z/PSE/robo_tivseg_standalone_test/src/ProtocolModule.h
-
 /home/z/PSE/robo_tivseg_standalone_test/src/ObstacleModule.cpp
 ObstacleModule.h
 /home/z/PSE/robo_tivseg_standalone_test/src/ObstacleModule.h
@@ -76,10 +52,6 @@ stdio.h
 Enums.h
 /home/z/PSE/robo_tivseg_standalone_test/src/Enums.h
 
-/home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStub.cpp
-SensorManagerStub.h
-/home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStub.h
-
 /home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStub.h
 ../include/MarkerInfo.hpp
 /home/z/PSE/robo_tivseg_standalone_test/include/MarkerInfo.hpp
@@ -88,10 +60,6 @@ SensorManagerStub.h
 vector
 -
 
-/home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStubObstacleAlways.cpp
-SensorManagerStubObstacleAlways.h
-/home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStubObstacleAlways.h
-
 /home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStubObstacleAlways.h
 ../include/MarkerInfo.hpp
 /home/z/PSE/robo_tivseg_standalone_test/include/MarkerInfo.hpp
@@ -99,10 +67,6 @@ SensorManagerStubObstacleAlways.h
 /home/z/PSE/robo_tivseg_standalone_test/include/BoundingBox.hpp
 SensorManagerStub.h
 /home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStub.h
-
-/home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStubObstacleNever.cpp
-SensorManagerStubObstacleNever.h
-/home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStubObstacleNever.h
 
 /home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStubObstacleNever.h
 ../include/MarkerInfo.hpp

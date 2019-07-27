@@ -122,44 +122,44 @@ CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/z/PSE/robo_tivseg_standalone_test/src/ImageProcessingModule.cpp -o CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.s
 
-CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.o: CMakeFiles/robo_tivseg_standalone_test.dir/flags.make
-CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.o: ../test/SensorManagerStub.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.o -c /home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStub.cpp
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStub.cpp.o: CMakeFiles/robo_tivseg_standalone_test.dir/flags.make
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStub.cpp.o: ../test/SensorManager/SensorManagerStub.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStub.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStub.cpp.o -c /home/z/PSE/robo_tivseg_standalone_test/test/SensorManager/SensorManagerStub.cpp
 
-CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStub.cpp > CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.i
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStub.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStub.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/z/PSE/robo_tivseg_standalone_test/test/SensorManager/SensorManagerStub.cpp > CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStub.cpp.i
 
-CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStub.cpp -o CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.s
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStub.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStub.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/z/PSE/robo_tivseg_standalone_test/test/SensorManager/SensorManagerStub.cpp -o CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStub.cpp.s
 
-CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.o: CMakeFiles/robo_tivseg_standalone_test.dir/flags.make
-CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.o: ../test/SensorManagerStubObstacleNever.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.o -c /home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStubObstacleNever.cpp
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleNever.cpp.o: CMakeFiles/robo_tivseg_standalone_test.dir/flags.make
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleNever.cpp.o: ../test/SensorManager/SensorManagerStubObstacleNever.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleNever.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleNever.cpp.o -c /home/z/PSE/robo_tivseg_standalone_test/test/SensorManager/SensorManagerStubObstacleNever.cpp
 
-CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStubObstacleNever.cpp > CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.i
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleNever.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleNever.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/z/PSE/robo_tivseg_standalone_test/test/SensorManager/SensorManagerStubObstacleNever.cpp > CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleNever.cpp.i
 
-CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStubObstacleNever.cpp -o CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.s
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleNever.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleNever.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/z/PSE/robo_tivseg_standalone_test/test/SensorManager/SensorManagerStubObstacleNever.cpp -o CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleNever.cpp.s
 
-CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.o: CMakeFiles/robo_tivseg_standalone_test.dir/flags.make
-CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.o: ../test/SensorManagerStubObstacleAlways.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.o -c /home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStubObstacleAlways.cpp
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleAlways.cpp.o: CMakeFiles/robo_tivseg_standalone_test.dir/flags.make
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleAlways.cpp.o: ../test/SensorManager/SensorManagerStubObstacleAlways.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleAlways.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleAlways.cpp.o -c /home/z/PSE/robo_tivseg_standalone_test/test/SensorManager/SensorManagerStubObstacleAlways.cpp
 
-CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStubObstacleAlways.cpp > CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.i
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleAlways.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleAlways.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/z/PSE/robo_tivseg_standalone_test/test/SensorManager/SensorManagerStubObstacleAlways.cpp > CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleAlways.cpp.i
 
-CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/z/PSE/robo_tivseg_standalone_test/test/SensorManagerStubObstacleAlways.cpp -o CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.s
+CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleAlways.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleAlways.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/z/PSE/robo_tivseg_standalone_test/test/SensorManager/SensorManagerStubObstacleAlways.cpp -o CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleAlways.cpp.s
 
 # Object files for target robo_tivseg_standalone_test
 robo_tivseg_standalone_test_OBJECTS = \
@@ -168,9 +168,9 @@ robo_tivseg_standalone_test_OBJECTS = \
 "CMakeFiles/robo_tivseg_standalone_test.dir/src/ProtocolModule.cpp.o" \
 "CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o" \
 "CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.o" \
-"CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.o" \
-"CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.o" \
-"CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.o"
+"CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStub.cpp.o" \
+"CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleNever.cpp.o" \
+"CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleAlways.cpp.o"
 
 # External object files for target robo_tivseg_standalone_test
 robo_tivseg_standalone_test_EXTERNAL_OBJECTS =
@@ -180,9 +180,9 @@ robo_tivseg_standalone_test: CMakeFiles/robo_tivseg_standalone_test.dir/src/Abst
 robo_tivseg_standalone_test: CMakeFiles/robo_tivseg_standalone_test.dir/src/ProtocolModule.cpp.o
 robo_tivseg_standalone_test: CMakeFiles/robo_tivseg_standalone_test.dir/src/ObstacleModule.cpp.o
 robo_tivseg_standalone_test: CMakeFiles/robo_tivseg_standalone_test.dir/src/ImageProcessingModule.cpp.o
-robo_tivseg_standalone_test: CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStub.cpp.o
-robo_tivseg_standalone_test: CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleNever.cpp.o
-robo_tivseg_standalone_test: CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManagerStubObstacleAlways.cpp.o
+robo_tivseg_standalone_test: CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStub.cpp.o
+robo_tivseg_standalone_test: CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleNever.cpp.o
+robo_tivseg_standalone_test: CMakeFiles/robo_tivseg_standalone_test.dir/test/SensorManager/SensorManagerStubObstacleAlways.cpp.o
 robo_tivseg_standalone_test: CMakeFiles/robo_tivseg_standalone_test.dir/build.make
 robo_tivseg_standalone_test: /usr/lib/libgtest.a
 robo_tivseg_standalone_test: /usr/lib/libgtest_main.a

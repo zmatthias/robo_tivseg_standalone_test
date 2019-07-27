@@ -1,3 +1,5 @@
 /home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles/robo_tivseg_standalone_test.dir
 /home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test/CMakeFiles/robo_tivseg_standalone_test.dir
+/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test/CMakeFiles/edit_cache.dir

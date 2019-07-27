@@ -2,8 +2,8 @@
 #include "../src/ObstacleModule.h"
 #include "../src/ObstacleModule.cpp"
 
-#include "SensorManagerStubObstacleAlways.h"
-#include "SensorManagerStubObstacleNever.h"
+#include "SensorManager/SensorManagerStubObstacleAlways.h"
+#include "SensorManager/SensorManagerStubObstacleNever.h"
 
 
 TEST(ObstacleTest, checkIfObstacle)

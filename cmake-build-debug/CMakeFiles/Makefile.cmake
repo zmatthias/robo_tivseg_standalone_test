@@ -28,6 +28,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/z/Downloads/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/FindGTest.cmake"
   "/home/z/Downloads/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake"
   "/home/z/Downloads/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/FindPackageMessage.cmake"
+  "/home/z/Downloads/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/FindSDL.cmake"
   "/home/z/Downloads/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/FindThreads.cmake"
   "/home/z/Downloads/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/GoogleTest.cmake"
   "/home/z/Downloads/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/Internal/CMakeCheckCompilerFlag.cmake"
@@ -41,6 +42,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.14.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeSystem.cmake"
+  "../test/CMakeLists.txt"
+  "/opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig-version.cmake"
+  "/opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig.cmake"
+  "/opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules-release.cmake"
+  "/opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/realsense2/realsense2Config.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/realsense2/realsense2ConfigVersion.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/realsense2/realsense2Targets-release.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/realsense2/realsense2Targets.cmake"
   )
 
 # The corresponding makefile is:
@@ -52,9 +62,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/robo_tivseg_standalone_test.dir/DependInfo.cmake"
+  "test/CMakeFiles/robo_tivseg_standalone_test.dir/DependInfo.cmake"
   )

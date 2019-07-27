@@ -150,7 +150,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=robo_tivseg_standalone_test
+CMAKE_PROJECT_NAME:STATIC=robo_tivseg
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -226,17 +226,38 @@ GTEST_MAIN_LIBRARY:FILEPATH=/usr/lib/libgtest_main.a
 //Path to a library.
 GTEST_MAIN_LIBRARY_DEBUG:FILEPATH=GTEST_MAIN_LIBRARY_DEBUG-NOTFOUND
 
+//The directory containing a CMake configuration file for OpenCV.
+OpenCV_DIR:PATH=/opt/ros/kinetic/share/OpenCV-3.3.1-dev
+
 //Path to a program.
 ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
-//Value Computed by CMake
-robo_tivseg_standalone_test_BINARY_DIR:STATIC=/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug
+//Path to a library.
+SDLMAIN_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libSDLmain.a
+
+//Path to a file.
+SDL_INCLUDE_DIR:PATH=/usr/include/SDL
+
+//Where the SDL Library can be found
+SDL_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libSDLmain.a;/usr/lib/x86_64-linux-gnu/libSDL.so;-lpthread
+
+//The directory containing a CMake configuration file for realsense2.
+realsense2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/realsense2
 
 //Value Computed by CMake
-robo_tivseg_standalone_test_SOURCE_DIR:STATIC=/home/z/PSE/robo_tivseg_standalone_test
+robo_tivseg_BINARY_DIR:STATIC=/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug
+
+//Value Computed by CMake
+robo_tivseg_SOURCE_DIR:STATIC=/home/z/PSE/robo_tivseg_standalone_test
+
+//Value Computed by CMake
+robo_tivseg_standalone_test_BINARY_DIR:STATIC=/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test
+
+//Value Computed by CMake
+robo_tivseg_standalone_test_SOURCE_DIR:STATIC=/home/z/PSE/robo_tivseg_standalone_test/test
 
 
 ########################
@@ -355,7 +376,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -398,6 +419,12 @@ CMAKE_UNAME:INTERNAL=/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding GTest
 FIND_PACKAGE_MESSAGE_DETAILS_GTest:INTERNAL=[/usr/lib/libgtest.a][/usr/include][/usr/lib/libgtest_main.a][v()]
+//Details about finding OpenCV
+FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/opt/ros/kinetic][v3.3.1()]
+//Details about finding SDL
+FIND_PACKAGE_MESSAGE_DETAILS_SDL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libSDLmain.a;/usr/lib/x86_64-linux-gnu/libSDL.so;-lpthread][/usr/include/SDL][v1.2.15()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GTEST_INCLUDE_DIR
 GTEST_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GTEST_LIBRARY
@@ -412,4 +439,6 @@ GTEST_MAIN_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 ProcessorCount_cmd_getconf-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
+//Path to a library.
+SDL_LIBRARY_TEMP:INTERNAL=/usr/lib/x86_64-linux-gnu/libSDL.so
 

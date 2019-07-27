@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="robo_tivseg_standalone_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\realsense2\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="robo_tivseg_standalone_test">
+				<Option output="/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/bin/robo_tivseg_standalone_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/z/PSE/robo_tivseg_standalone_test/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 robo_tivseg_standalone_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="robo_tivseg_standalone_test/fast">
+				<Option output="/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/bin/robo_tivseg_standalone_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/z/PSE/robo_tivseg_standalone_test/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 robo_tivseg_standalone_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/AbstractModule.cpp">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/AbstractModule.h">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/ImageProcessingModule.cpp">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/ImageProcessingModule.h">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/ObstacleModule.cpp">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/ObstacleModule.h">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/ProtocolModule.cpp">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/src/ProtocolModule.h">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/SensorManager/SensorManagerStub.cpp">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/SensorManager/SensorManagerStub.h">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/SensorManager/SensorManagerStubObstacleAlways.cpp">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/SensorManager/SensorManagerStubObstacleAlways.h">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/SensorManager/SensorManagerStubObstacleNever.cpp">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/SensorManager/SensorManagerStubObstacleNever.h">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/test.cpp">
+			<Option target="robo_tivseg_standalone_test"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/../../../../usr/lib/x86_64-linux-gnu/cmake/realsense2/realsense2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\realsense2\"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/../../../../usr/lib/x86_64-linux-gnu/cmake/realsense2/realsense2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\realsense2\"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/../../../../usr/lib/x86_64-linux-gnu/cmake/realsense2/realsense2Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\realsense2\"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/../../../../usr/lib/x86_64-linux-gnu/cmake/realsense2/realsense2Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\realsense2\"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		</Unit>
+		<Unit filename="/home/z/PSE/robo_tivseg_standalone_test/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,4 +1,19 @@
 /home/z/Downloads/clion-2019.1.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/z/PSE/robo_tivseg_standalone_test
+-- Found Threads: TRUE  
+-- Found SDL: /usr/lib/x86_64-linux-gnu/libSDLmain.a;/usr/lib/x86_64-linux-gnu/libSDL.so;-lpthread (found version "1.2.15") 
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") 
 -- Configuring done
--- Generating done
+CMake Error at test/CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    test/test.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at test/CMakeLists.txt:22 (add_executable):
+  No SOURCES given to target: robo_tivseg_standalone_test
+
+
 -- Build files have been written to: /home/z/PSE/robo_tivseg_standalone_test/cmake-build-debug

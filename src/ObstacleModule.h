@@ -10,7 +10,7 @@
 //#include "DriveDecisionModule.h"
 //#include "SensorManager.hpp"
 
-#include "../test/SensorManagerStubObstacleNever.h"
+#include "../test/SensorManager/SensorManagerStubObstacleNever.h"
 #include "ProtocolModule.h"
 #include "Positions.h"
 #include "AbstractModule.h"

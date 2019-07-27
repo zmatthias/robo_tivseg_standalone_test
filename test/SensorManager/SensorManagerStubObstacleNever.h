@@ -1,7 +1,7 @@
 #pragma once
 
-#include "../include/MarkerInfo.hpp"
-#include "../include/BoundingBox.hpp"
+#include "../../include/MarkerInfo.hpp"
+#include "../../include/BoundingBox.hpp"
 #include "SensorManagerStub.h"
 
 /// Stub that never emulates an obstacle
